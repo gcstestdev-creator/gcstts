@@ -39,7 +39,7 @@ async function sendEmailNotification(subject, text) {
   try {
     await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'lingalemohamed250@gmail.com',
+      to: 'gcstestdev@gmail.com',
       subject: subject,
       text: text,
     });
